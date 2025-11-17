@@ -6,7 +6,7 @@ public class NullOperations
     public void PerformNullChecks()
     {
         // Declare username and assign null
-        string? username = null;
+        string username = null;
 
         // Ternary Operator: Check if null
         Console.WriteLine(username == null ? "Username is not available" : username);

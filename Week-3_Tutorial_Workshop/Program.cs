@@ -147,7 +147,7 @@ class Program
         {
             // Get user input
             Console.Write("Enter a number: ");
-            string? userInput = Console.ReadLine();
+            string userInput = Console.ReadLine();
             
             // Convert input to integer
             int number = Convert.ToInt32(userInput);
@@ -171,7 +171,7 @@ class Program
         {
             // Get password input
             Console.Write("Enter a password: ");
-            string? password = Console.ReadLine();
+            string password = Console.ReadLine();
             
             // Check if password is null or empty
             if (string.IsNullOrEmpty(password))

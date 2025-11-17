@@ -1,0 +1,15 @@
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/bin/Debug/net9.0/Week-4_Tutorial_Workshop
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/bin/Debug/net9.0/Week-4_Tutorial_Workshop.deps.json
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/bin/Debug/net9.0/Week-4_Tutorial_Workshop.runtimeconfig.json
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/bin/Debug/net9.0/Week-4_Tutorial_Workshop.dll
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/bin/Debug/net9.0/Week-4_Tutorial_Workshop.pdb
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.GeneratedMSBuildEditorConfig.editorconfig
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.AssemblyInfoInputs.cache
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.AssemblyInfo.cs
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.csproj.CoreCompileInputs.cache
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.sourcelink.json
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.dll
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/refint/Week-4_Tutorial_Workshop.dll
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.pdb
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/Week-4_Tutorial_Workshop.genruntimeconfig.cache
+/home/bishantamang/RiderProjects/Application-Development/Week-4_Tutorial_Workshop/obj/Debug/net9.0/ref/Week-4_Tutorial_Workshop.dll
