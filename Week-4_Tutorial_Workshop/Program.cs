@@ -2,37 +2,37 @@
 
 // Task 1
 
-class Program
-{
-    static void Main(string[] args)
-    {
-        // Create two objects of Student class
-        Student s1 = new Student();
-        Student s2 = new Student();
-
-        // Assign values to instance fields
-        s1.Name = "Ram";
-        s1.Age = 20;
-        s1.Address = "Kathmandu";
-
-        s2.Name = "Sita";
-        s2.Age = 19;
-        s2.Address = "Pokhara";
-
-        // Display values for first object
-        Console.WriteLine("Name: " + s1.Name);
-        Console.WriteLine("Age: " + s1.Age);
-        Console.WriteLine("Address: " + s1.Address);
-
-        // Display values for second object
-        Console.WriteLine("Name: " + s2.Name);
-        Console.WriteLine("Age: " + s2.Age);
-        Console.WriteLine("Address: " + s2.Address);
-
-        // Display static field
-        Console.WriteLine("\nSchool Name: " + Student.SchoolName);
-    }
-}
+// class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         // Create two objects of Student class
+//         Student s1 = new Student();
+//         Student s2 = new Student();
+//
+//         // Assign values to instance fields
+//         s1.Name = "Ram";
+//         s1.Age = 20;
+//         s1.Address = "Kathmandu";
+//
+//         s2.Name = "Sita";
+//         s2.Age = 19;
+//         s2.Address = "Pokhara";
+//
+//         // Display values for first object
+//         Console.WriteLine("Name: " + s1.Name);
+//         Console.WriteLine("Age: " + s1.Age);
+//         Console.WriteLine("Address: " + s1.Address);
+//
+//         // Display values for second object
+//         Console.WriteLine("Name: " + s2.Name);
+//         Console.WriteLine("Age: " + s2.Age);
+//         Console.WriteLine("Address: " + s2.Address);
+//
+//         // Display static field
+//         Console.WriteLine("\nSchool Name: " + Student.SchoolName);
+//     }
+// }
 
 
 // Task 2
@@ -108,3 +108,80 @@ class Program
 //         Console.WriteLine("Player 2 Health: " + p2.health);
 //     }
 // }
+
+
+// Task 5
+
+// public class Program
+// {
+//     public static void Main(string[] args)
+//     {
+//         // ----------- ENUM PART -----------
+//         Console.Write("Enter a day: ");
+//         string day = Console.ReadLine();
+//         day = day.ToLower(); // make input case-insensitive
+//
+//         DayType type;
+//
+//         if (day == "friday" || day == "saturday")
+//         {
+//             type = DayType.Weekend;
+//         }
+//         else
+//         {
+//             type = DayType.Weekday;
+//         }
+//
+//         Console.WriteLine("It is: " + type);
+//         Console.WriteLine();
+//
+//         // ----------- RECORD PART -----------
+//         // Create first Book object
+//         Book b1 = new Book("C# Basics", "John Doe", 499.99);
+//
+//         // Create another object using 'with' expression
+//         Book b2 = b1 with { title = "Advanced C#", price = 699.99 };
+//
+//         // Print first object
+//         Console.WriteLine("First Book:");
+//         Console.WriteLine($"Title: {b1.title}, Author: {b1.author}, Price: {b1.price}");
+//         Console.WriteLine();
+//
+//         // Deconstruct second object
+//         var (t, a, p) = b2;
+//
+//         Console.WriteLine("Deconstructed Second Book:");
+//         Console.WriteLine($"Title: {t}");
+//         Console.WriteLine($"Author: {a}");
+//         Console.WriteLine($"Price: {p}");
+//     }
+// }
+
+
+// Task 6
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        int marks, total;
+
+        Console.Write("Enter marks: ");
+        int.TryParse(Console.ReadLine(), out marks);
+
+        Console.Write("Enter total marks: ");
+        int.TryParse(Console.ReadLine(), out total);
+
+        // BREAKPOINT 1 → Before calculation
+
+        // Incorrect version (for debugging)
+        // double percentage = marks / total * 100;
+
+        // Correct version
+        double percentage = (double)marks / total * 100;
+
+        // BREAKPOINT 2 → After calculation
+
+        Console.WriteLine("Percentage: " + percentage + "%");
+    }
+}
